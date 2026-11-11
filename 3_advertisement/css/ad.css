@@ -1,0 +1,96 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Variable Fonts */
+@font-face {
+  font-family: 'ZT';
+  src: url(../fonts/ZTNatureVariable-VF.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoFlex';
+  src: url(../fonts/RobotoFlex.ttf) format('truetype');
+
+}
+
+/* Question: why wont variable fonts work?*/
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	background: url("../images/sonyheadphone.webp") no-repeat center fixed;
+	background-size: 500px;
+	background-position-x: 700px;
+	background-position-y: 100px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+/* Text*/
+.title {
+	font-family: 'RobotoFlex';
+	font-size: 60px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-width: 25px;
+}
+
+.tagline {
+	font-family: 'ZT';
+	font-size: 30px;
+	margin-left: 20px;
+	color: #545454;
+	margin-bottom: 80px;
+
+}
+
+
+/* Elements*/
+.circle {
+	top: 9px;
+	left: 550px;
+	height: 400px;
+	width:400px;
+	border-radius: 100%;
+	background: #E1Ad01;
+	position: absolute;
+	z-index: -1;
+}
+
+
+.CTA {
+	font-family: 'ZT';
+	color:  #E1Ad01;
+	font-size: 15px;
+	margin-top: 100px;
+	border:solid 2px  #E1Ad01;
+	width: 400px;
+	padding: 10px 200px 10px 200px;
+	margin-left: 20px;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+.CTA:hover{
+	color: #FFFFFF ;
+	background: #E1Ad01;
+	transition:0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
